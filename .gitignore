@@ -1,0 +1,47 @@
+# .gitignore
+
+# Ignore Python build artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Ignore Django migrations
+*/migrations/*
+
+# Ignore all log files
+*.log
+
+# Ignore Node.js build artifacts
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Ignore Database
+*.sqlite3
+
+# Ignore secrets
+.env
+
+# Ignore IDE specific files
+.idea/
+.vscode/
+
+# Ignore Docker files
+*.dockerignore
+Dockerfile
+docker-compose.yml
+
+# Ignore Kubernetes files
+*.yaml
+
+# Ignore Test coverage reports
+htmlcov/
+.coverage
+.coverage.*
+*.cover
+.coverage/
+
+# Ignore dist/
+dist/
